@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kedai Digital | Pesan Kuliner Jadi Mudah</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">KEDAI <span>DIGITAL</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="login.html" class="btn-login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Selamat Datang di Kedai Digital</h1>
+            <p>Makanan lezat, harga merakyat, pesan kilat!</p>
+            <a href="#menu" class="btn-cta">Lihat Menu Sekarang</a>
+        </div>
+    </section>
+
+    <section id="menu" class="container">
+        <h2 class="section-title">Menu Favorit</h2>
+        <div class="menu-grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=400" alt="Pizza">
+                <div class="card-body">
+                    <h3>Pizza Klasik</h3>
+                    <p class="price">Rp 45.000</p>
+                    <button class="btn-wa" onclick="pesanKeWA('Pizza Klasik')">Pesan via WA</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=400" alt="Salad">
+                <div class="card-body">
+                    <h3>Salad Segar</h3>
+                    <p class="price">Rp 25.000</p>
+                    <button class="btn-wa" onclick="pesanKeWA('Salad Segar')">Pesan via WA</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1544145945-f904253d0c7b?q=80&w=400" alt="Kopi">
+                <div class="card-body">
+                    <h3>Kopi Susu Digital</h3>
+                    <p class="price">Rp 15.000</p>
+                    <button class="btn-wa" onclick="pesanKeWA('Kopi Susu Digital')">Pesan via WA</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>Tentang Kami</h2>
+            <p>Kedai Digital adalah pionir usaha kuliner berbasis digital yang mengutamakan kualitas rasa dan kemudahan pemesanan. Kami percaya bahwa makanan enak harus bisa diakses oleh siapa saja dengan cepat.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Kedai Digital. Semua Hak Dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
